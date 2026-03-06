@@ -1,0 +1,144 @@
+/* ================= GLOBAL STYLES ================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.6;
+}
+
+/* Container keeps content centered */
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+/* ================= HEADER ================= */
+
+.header{
+    background:#222;
+    color:white;
+    padding:20px 0;
+}
+
+.header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+}
+
+.nav-links li{
+    margin-left:20px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+/* ================= HERO SECTION ================= */
+
+.hero{
+    background:linear-gradient(to right,#4facfe,#00f2fe);
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:40px;
+}
+
+.hero p{
+    margin:20px 0;
+}
+
+/* Button style */
+
+.btn{
+    display:inline-block;
+    background:white;
+    color:#333;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+/* ================= FEATURES ================= */
+
+.features{
+    padding:60px 0;
+    text-align:center;
+}
+
+.section-title{
+    margin-bottom:40px;
+}
+
+.feature-grid{
+    display:flex;
+    gap:20px;
+}
+
+.feature-box{
+    background:#f4f4f4;
+    padding:30px;
+    border-radius:8px;
+}
+
+/* ================= ABOUT ================= */
+
+.about{
+    background:#eee;
+    padding:60px 0;
+    text-align:center;
+}
+
+/* ================= CTA ================= */
+
+.cta{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:60px 0;
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+@media(max-width:768px){
+
+    .feature-grid{
+        flex-direction:column;
+    }
+
+    .header .container{
+        flex-direction:column;
+    }
+
+    .nav-links{
+        margin-top:10px;
+    }
+
+}
