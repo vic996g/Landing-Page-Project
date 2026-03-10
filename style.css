@@ -51,11 +51,13 @@ body{
 /* ================= HERO SECTION ================= */
 
 .hero{
-    background:linear-gradient(to right,#4facfe,#00f2fe);
+     background:linear-gradient(to right,#4facfe,#00f2fe);
     color:white;
     text-align:center;
     padding:100px 20px;
 }
+
+
 
 .hero h2{
     font-size:40px;
@@ -96,6 +98,15 @@ body{
     background:#f4f4f4;
     padding:30px;
     border-radius:8px;
+}
+.feature-icon {
+     width: 90%;          /* Almost full width but with a little padding */
+    max-width: 1200px;   /* Keeps image from getting too large on very big screens */
+    height: 65%;        /* Maintains aspect ratio */
+    display: block;      /* Removes inline spacing issues */
+    margin: 40px auto 60px auto; /* Top 40px, center horizontally, bottom 60px for spacing */
+    border-radius: 12px; /* Optional: subtle rounded corners for aesthetics */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Optional: subtle shadow for depth */
 }
 
 /* ================= ABOUT ================= */
